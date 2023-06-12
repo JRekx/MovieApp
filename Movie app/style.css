@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #ratings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  #ratings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .rating-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+  }
+  
+  .title,
+  .rating {
+    flex: 1;
+    color: #fff;
+  }
+  
+  .remove-button {
+    padding: 5px 10px;
+    background-color: #c62828;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
